@@ -495,6 +495,8 @@ function lunch()
         return 1
     fi
 
+    check_product $product $release
+
     _lunch_meat $product $release $variant
 }
 
